@@ -174,7 +174,7 @@ t_CHAR = r'\w'
 t_DOUBLEP = r'\:'
 t_INT = r'\d+'
 t_FLOAT = r'-?\d*\.\d+'
-t_STR = r'\"(.*?)\"'
+t_STR = r'(\"|\')(.*?)(\"|\')'
 #Giancarlo Ortiz
 t_INCREMENTO = r'\+\+'
 t_DISMINICION = r'--'
